@@ -29,20 +29,20 @@ else{
     
     
     if(data.weather[0].main == "Clouds"){
-        weatherIcon.src= "../IMAGES/images/clouds.png";
+        weatherIcon.src= "clouds.png";
     }
     else if (data.weather[0].main=="Clear"){
-        weatherIcon.src= "../IMAGES/images/clear.png";
+        weatherIcon.src= "clear.png";
     }
     
     else if(data.weather[0].main == "Rain"){
-        weatherIcon.src= "../IMAGES/images/rain.png";
+        weatherIcon.src= "rain.png";
     }
     else if (data.weather[0].main=="Drizzle"){
-        weatherIcon.src= "../IMAGES/images/drizzle.png";
+        weatherIcon.src= "drizzle.png";
     }
     else if (data.weather[0].main=="Mist"){
-        weatherIcon.src= "../IMAGES/images/mist.png";
+        weatherIcon.src= "mist.png";
     }
     
     document.querySelector(".weather").style.display="block";
